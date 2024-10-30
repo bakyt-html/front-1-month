@@ -1,0 +1,36 @@
+.main {
+  background-image: url('../images/bg-online.webp');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+  padding-top: 180px;
+  text-align: center;
+
+  h1 {
+    font-size: 56px;
+    color: #ffffff;
+  }
+
+  p {
+    width: 867px;
+    font-size: 16px;
+    line-height: 155%;
+    margin: 24px auto 45px auto;
+  }
+
+  a {
+    display: flex;
+    color: #ffffff;
+    width: 175px;
+    height: 46px;
+    margin: 0 auto;
+    background-color: #086CF9;
+    border-radius: 4px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
