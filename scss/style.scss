@@ -64,5 +64,61 @@
 
 }
 
+.course {
+  margin-top: 134px;
+}
+
+.course__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+  .right {
+    background-image: url('../images/image-girls.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 595px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .round {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .left {
+    .title {
+      margin-bottom: 24px;
+      color: #222222;
+    }
+    .caption {
+      color: #555555;
+      font-size: 16px;
+      line-height: 155%;
+    }
+    .second_caption {
+      color: #333333;
+      font-size: 20px;
+      margin-top: 16px;
+    }
+    a {
+      display: flex;
+      width: 149px;
+      height: 56px;
+      background-color: #086CF9;
+      border-radius: 4px;
+      color: #ffffff;
+      justify-content: center;
+      align-items: center;
+      margin-top: 32px;
+    }
+  }
+}
+
 
 
