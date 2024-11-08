@@ -251,6 +251,48 @@
 
 }
 
+.event {
+  margin-top: 111px;
+  .title {
+    text-align: center;
+  }
+  .caption {
+    text-align: center;
+    width: 421px;
+    margin: 12px auto 48px;
+    color: #444444;
+  }
+  .event__inner {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    .item {
+      flex: 0 0 33.3%;
+      position: relative;
+      border-radius: 6px;
+      img {
+        display: block;
+      }
+    }
+  }
+
+
+  .date {
+    position: absolute;
+    background-color: #88B1EB;
+    width: 65px;
+    height: 62px;
+    left: 0;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 6px;
+  }
+  .item__lower {
+    background-color: #88B1EB;
+
+  }
+}
 
 
 
