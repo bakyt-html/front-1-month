@@ -1,3 +1,49 @@
+.wrapper {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 43px 144px;
+    a {
+        color: #ffffff;
+    }
+    .education a {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .navbar {
+        div:first-child a {
+            color: #086CF9;
+        }
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        font-size: 16px;
+    }
+    .login {
+        display: flex;
+        justify-content: space-between;
+        gap: 54px;
+        font-size: 16px;
+        align-items: center;
+        a:nth-child(2) {
+            width: 104px;
+            height: 41px;
+            background-color: #086CF9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+        }
+    }
+
+}
+
 .main {
   background-image: url('../images/bg-online.webp');
   background-position: top center;
