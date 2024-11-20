@@ -64,5 +64,25 @@
 
 }
 
+.course {
+  margin-top: 134px;
+}
+
+.course__inner {
+  display: flex;
+  justify-content: space-between;
+  .right {
+    background-image: url('../images/image-girls.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 0 0 595px;
+  }
+  .left {
+    
+
+  }
+
+}
+
 
 
